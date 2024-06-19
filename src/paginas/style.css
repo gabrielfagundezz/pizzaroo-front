@@ -1,0 +1,26 @@
+.background {
+    background-image: url('./pizzafundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 81.8vh;
+    width: 100vw; 
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a centralização */
+    color: white; /* Cor do texto */
+    z-index: 1; /* Garante que o texto esteja acima de outros elementos */
+    text-align: center;
+  }
+
+
+  
+  .content {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo esteja acima do fundo mas abaixo do texto */
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor contraste do texto */
+  }
